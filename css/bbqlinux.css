@@ -120,6 +120,7 @@ a:active {color:#e90}
 div.box-left-header
 {
     height:20px;
+	line-height:25px
     float:left;
     color:#FFF;
 	font-weight:bold; 
