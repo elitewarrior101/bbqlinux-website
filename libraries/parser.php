@@ -57,7 +57,7 @@ class TemplateParser
 	
 		if(!in_array($destid,$this->tplidcache))
 		{
-			echo 'ID: '.$destid.' ist nicht vorhanden';
+			echo 'Template ID ('.$destid.') not found.';
 		}
 		$index = array_search($destid,$this->tplidcache);
 		$this->tplvaluecache[$index] = str_replace($varname,$value,$this->tplvaluecache[$index]);
@@ -69,7 +69,7 @@ class TemplateParser
 	
 		if(in_array($id,$this->tplidcache))
 		{
-			echo 'ID: '.$id.' bereits vergeben';
+			echo 'Template ID ('.$id.') already assigned';
 		}
 
 		$this->tplcache[]    = $tpl;

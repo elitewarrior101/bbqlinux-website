@@ -13,12 +13,17 @@
 	</head>
 	<body>
         <div id="wrapper">
+
             {$TPL:Header}
+
             <br />
+
             <div id="content">
                 {$TPL:Content}
             </div>
+
             {$TPL:Footer}
+
         </div>
 	</body>
 </html>

@@ -5,7 +5,7 @@ if (!defined('FRAMEWORK_VERSION')) {
     exit('No direct script access allowed!'); 
 }
 
-$TPL->assigntpl(TPL_DIR.APP_DIR,'TPL:Content', 'home', $TPLid);
-$TPL->assign('home',$error,$TPLid);$TPLid++;
+$TPL->assigntpl(TPL_DIR.APP_DIR,'TPL:Content-Left', 'home', $TPLid);$TPLid++;
+#$TPL->assign('home',$error,$TPLid);$TPLid++;
 
 ?>

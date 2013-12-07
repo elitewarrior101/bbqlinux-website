@@ -13,8 +13,11 @@ require_once('config/config.php');
 require_once(LIB_DIR.'parser.php');
 
 $TPL = new TemplateParser(TPL_DIR, 'container');$TPLid++;
+
 $TPL->assigntpl(TPL_DIR,'TPL:Header', 'header', $TPLid);$TPLid++;
-	
+$TPL->assigntpl(TPL_DIR,'TPL:Content', 'content', $TPLid);$TPLid++;
+$TPL->assigntpl(TPL_DIR,'TPL:Content-Right', 'sidebar', $TPLid);$TPLid++;
+
 require_once(APP_DIR.'controller.php');
 	
 $TPL->assigntpl(TPL_DIR,'TPL:Footer', 'footer', $TPLid);$TPLid++;
