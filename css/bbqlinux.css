@@ -99,9 +99,20 @@ a:active {color:#e90}
     width:100%;
 	background:#333;
 	border-top:5px #08c solid;
+}
+
+#footbarCopyright
+{
+    margin:10px 0px 0px 0px;
     color:#FFF;
     font-size:11px;
 	font-family:sans-serif;
+    text-align:center;
+}
+
+#footbarCopyright a
+{
+    color:#08c;
 }
 
 /* GENERAL */
