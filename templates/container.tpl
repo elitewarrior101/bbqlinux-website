@@ -5,8 +5,10 @@
 		<title>BBQLinux</title>
 
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+        <meta name="author" content="The BBQLinux Project">
+		<meta name="description" content="An arch based Linux distribution." />
+		<meta name="keywords" content="bbqlinux, linux, arch" />
+        <meta name="date" content="2013-12-7T19:20:37+02:00">
 
         <link rel="stylesheet" href="css/bbqlinux.css" />
 
